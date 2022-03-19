@@ -2,7 +2,6 @@ import shutil
 import tempfile
 
 from django import forms
-from django.contrib.auth import get_user_model
 from django.test import Client, TestCase, override_settings
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.core.cache import cache
