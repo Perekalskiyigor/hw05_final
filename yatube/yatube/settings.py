@@ -41,9 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'sorl.thumbnail',
     'debug_toolbar',
-    # Приложение staticfiles необходимо для работы приложения DjDT
-    'django.contrib.staticfiles',
-    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
